@@ -5,7 +5,7 @@ WORKDIR /cpp_sandbox
 
 RUN apt-get update
 RUN apt-get install -y cmake
-RUN apt-get install -y g++
+RUN apt-get install -y gcc
 RUN apt-get install -y build-essential 
 RUN apt-get install -y gdb 
 
